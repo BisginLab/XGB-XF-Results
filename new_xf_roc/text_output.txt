@@ -1,0 +1,47 @@
+
+Selected feature indices and names:
+Feature 2 (ContentRating): MI=0.0574
+Feature 11 (LastUpdated): MI=0.0513
+Feature 46 (days_since_last_update): MI=0.0505
+Feature 6 (highest_android_version): MI=0.0427
+Feature 43 (privacy_policy_link): MI=0.0389
+Feature 38 (TwoStarRatings): MI=0.0325
+Feature 0 (CurrentVersion): MI=0.0308
+Feature 13 (isSpamming): MI=0.0299
+Feature 41 (max_downloads_log): MI=0.0286
+Feature 37 (OneStarRatings): MI=0.0273
+Feature 34 (FourStarRatings): MI=0.0273
+Feature 35 (ThreeStarRatings): MI=0.0271
+Feature 5 (lowest_android_version): MI=0.0250
+Feature 33 (STORAGE): MI=0.0232
+Feature 36 (FiveStarRatings): MI=0.0232
+Feature 9 (LenWhatsNew): MI=0.0216
+Feature 3 (AndroidVersion): MI=0.0215
+Feature 44 (developer_address): MI=0.0208
+Feature 45 (developer_website): MI=0.0185
+Feature 15 (intent): MI=0.0172
+Feature 30 (PHONE): MI=0.0167
+Feature 28 (LOCATION): MI=0.0163
+Feature 4 (DeveloperCategory): MI=0.0156
+Feature 10 (ReviewsAverage): MI=0.0118
+Feature 1 (Genre): MI=0.0116
+Final feature shape: (108624, 25)
+
+d_numerical: 25
+weight shape: torch.Size([25, 256])
+bias shape: torch.Size([25, 256])
+
+Model weight dtype: torch.float32
+
+Evaluating validation and test sets:
+Processing validation set: 100%|██████████████████████████████████████████| 107/107 [00:01<00:00, 89.06it/s]
+Processing test set: 100%|████████████████████████████████████████████████| 107/107 [00:01<00:00, 83.77it/s]
+
+VALIDATION SET METRICS:
+ROC AUC: 0.8271
+Accuracy: 0.7424
+
+TEST SET METRICS:
+ROC AUC: 0.8255
+Accuracy: 0.7412
+(env) koernerg@BISGINLINUX-01:~/excelformer/ExcelFormer$ ls
